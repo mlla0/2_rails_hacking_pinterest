@@ -1,24 +1,37 @@
-# README
+# bdd & rails (thp week 4, day 3)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## made in pair programming by Maud Lévy :fried_shrimp: & Antoine Vercoutère :poultry_leg:
 
-Things you may want to cover:
+### How to use
 
-* Ruby version
+1. Git clone the repository to your computer
+2. In your terminal, run the `bundle install` command
+3. Then, run the `rails db:seed` command
+4. You can now open your rails console by typing `rails console`
+5. To display the **users table**, type `tp User.all` in the rails console. To display the **pins table**, type `tp Pin.all` in the rails console. To display the **comments table**, type `tp Comment.all` in the rails console.
 
-* System dependencies
 
-* Configuration
+### Composition and information
 
-* Database creation
+This app is composed of two tables : `courses` and `lessons`
 
-* Database initialization
+They are composed by the the following columns :
 
-* How to run the test suite
+**TABLE : users**
+* id,
+* name,
+* email
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+**TABLE : pins** 
+* id,
+* user_id,
+* url,
 
-* ...
+**TABLE : comments** 
+* id,
+* user_id,
+* pin_id,
+* content
+
+:kiss:
