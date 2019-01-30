@@ -36,4 +36,13 @@ They are composed by the the following columns :
 * pin_id,
 * content
 
+
+### All exercises
+
+* [1/5 blog](https://github.com/avnd26/0_rails_blog "#")
+* [2/5 Moocademy](https://github.com/mlla0/1_rails_moocademy "#")
+* [3/5 The Hacking Pinterest](https://github.com/mlla0/2_rails_hacking_pinterest "#")
+* [4/5 Hacker News](https://github.com/mlla0/3_rails_hacker_news "#")
+* [5/5 Hacking Class](https://github.com/mlla0/4_hacking_class "#")
+
 :kiss:
